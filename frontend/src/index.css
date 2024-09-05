@@ -1,0 +1,47 @@
+/* src/index.css */
+
+/* Reset default browser styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use a suitable Google Font */
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradient background */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling for TodoList component */
+  .TodoListWrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  /* Styling for TodoItem component */
+  .TodoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .TodoItem button {
+    margin-left: 10px;
+  }
+  
+  .completed-text {
+    margin-left: 10px;
+    color: green;
+    font-weight: bold;
+  }
+  .completed {
+    background-color: #f0f8ff; /* Light blue background for completed todos */
+  }
+  
+  .green-text {
+    color: green;
+    font-weight: bold;
+  }
