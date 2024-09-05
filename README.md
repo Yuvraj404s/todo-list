@@ -1,11 +1,22 @@
-this is a simple java Spring-boot full stack project involving postgres sql as database and REACT  waas utilised to create the entire frontend.
-to run the project locally first clone the [project or download and exgtract all the files.
-for backend first open a terminal in your IDE (Vs code preferabily) and use the commands as follows:-
-                                                                                                    1>cd backend
-                                                                                                    2>mvn spring-boot:run
-for frontend open another terminal and follow the4 following:-
-                                                            1>cd frontend
-                                                            2>npm start
-note that you have maven preinstalled and path varables are declared for the same beforehand.
-                                                          
-                                                                                              
+Project Overview
+This is a simple Java Spring Boot full-stack project utilizing PostgreSQL as the database. React.js was used to create the entire frontend.
+
+Running the Project Locally
+Step 1: Clone the Repository
+Clone the project or download and extract all the files.
+
+Step 2: Running the Backend
+Open a terminal in your IDE (VS Code preferred).
+Navigate to the backend directory:
+cd backend
+Run the following command to start the backend server:
+mvn spring-boot:run
+Step 3: Running the Frontend
+Open another terminal.
+Navigate to the frontend directory:
+cd frontend
+Run the following command to start the frontend:
+npm start
+Prerequisites
+Ensure that Maven is preinstalled.
+Make sure the environment path variables for Maven are declared beforehand.
